@@ -1,0 +1,52 @@
+.home {
+  width: 55%;
+  color: white;
+  margin: 150px 0 0 100px;
+}
+.learn > a {
+  text-decoration: none;
+  color: orange;
+  font-size: 20px;
+  font-weight: 200;
+}
+span {
+  font-family: "Lobster", cursive;
+  color: orange;
+}
+.center_items > h2 {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+.center_items > h1 {
+  font-size: 60px;
+  font-weight: 500;
+  font-family: "Indie Flower", cursive;
+}
+.center_items {
+  margin-bottom: 50px;
+}
+.bottom_title {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #bbb;
+}
+p {
+  margin-bottom: 20px;
+}
+span:hover {
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .home {
+    width: 90%;
+    margin: 50px 0 0 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .home {
+    width: 80%;
+  }
+}

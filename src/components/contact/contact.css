@@ -1,0 +1,73 @@
+.contact_me {
+  padding: 60px 100px;
+  width: 60%;
+}
+.top_data_contact {
+  color: white;
+}
+.talk {
+  margin-bottom: 15px;
+}
+.p {
+  color: #aaa;
+}
+.all-forms {
+  position: relative;
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+}
+.form-input {
+  padding: 8px 8px 10px 15px;
+  margin: 15px 0;
+  display: block;
+  border: none;
+  background: rgba(27, 27, 27, 0.91);
+  border-radius: 12px;
+  font-size: 14px;
+  width: 100%;
+}
+.form-input:focus {
+  outline: none;
+  color: white;
+}
+textarea {
+  border-radius: 12px;
+  background-color: rgba(27, 27, 27, 0.91);
+  border: none;
+}
+textarea:focus {
+  outline: none;
+  color: white;
+}
+textarea {
+  padding: 10px;
+  font-size: 14px;
+}
+.button {
+  color: orange;
+  background-color: rgba(27, 27, 27, 0.91);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.button:hover {
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .contact_me {
+    width: 90%;
+    padding: 50px 30px;
+  }
+  .button {
+    width: 50%;
+  }
+}
+@media (max-width: 900px) {
+  .contact_me {
+    width: 80%;
+  }
+}

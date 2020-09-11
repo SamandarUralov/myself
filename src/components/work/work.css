@@ -1,0 +1,89 @@
+.flex_parent {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.flex_parent_1 {
+  background: linear-gradient(0deg, #000, #172229),
+    linear-gradient(180deg, #000, #000);
+}
+.flex_parent_2 {
+  background: linear-gradient(180deg, #1f1f1f, #000),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+}
+.flex_parent_3 {
+  background: linear-gradient(0deg, #000, #010f1f),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+}
+.flex_parent_4 {
+  background: linear-gradient(0deg, #000, #0b000e),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+}
+.flex_1,
+.flex_2,
+.flex_3,
+.flex_4 {
+  width: 100%;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+.flex_1 > a,
+.flex_2 > a,
+.flex_3 > a,
+.flex_4 > a {
+  margin-top: 35px;
+  font-size: 20px;
+  color: orange;
+  width: 170px;
+  background-color: transparent;
+  margin-bottom: 55px;
+}
+.child_flex {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+}
+.circle {
+  width: 85px;
+  height: 85px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.project_data {
+  display: flex;
+  height: 85px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: transparent;
+}
+.project_data > p,
+h2 {
+  background-color: transparent;
+}
+img {
+  width: 80%;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  float: right;
+  background: transparent;
+}
+@media (max-width: 800px) {
+  .flex_parent {
+    flex-direction: column;
+  }
+  .flex_1,
+  .flex_2,
+  .flex_3,
+  .flex_4 {
+    width: 100%;
+    padding: 50px 35px;
+  }
+}
